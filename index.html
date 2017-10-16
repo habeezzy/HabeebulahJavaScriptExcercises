@@ -3,8 +3,22 @@
 <html lang="en">
 
 <head>
-  <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="script.js">
+
+  var userInput = prompt("do you want to play");
+  var userWord = ""
+  do {
+      userWord += prompt("Enter a word");
+    //  userWord = userWord + prompt("Enter a Word");
+     userInput = prompt("do you want to play again?");
+  }while (userInput == "yes");
+  console.log(userWord);
+
+
+
+
+  </script>
 </head>
 <body>
-  
+
 </body>
